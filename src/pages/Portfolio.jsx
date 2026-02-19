@@ -37,20 +37,6 @@ const NAV_LINKS = ["About", "Projects", "Experience", "Skills", "Resume", "Conta
 
 const PROJECTS = [
   {
-    name: "PitchDekh",
-    tags: ["React", "Express.js", "Gemini API", "Supabase", "Firecrawl"],
-    category: "GenAI · Full Stack",
-    desc: "AI-Powered Pitch Intelligence Platform for analyzing startup pitch decks and investor profiles. Built AI workflows extracting structured data via Gemini APIs and automated VC profile enrichment through scalable web-scraping pipelines.",
-    highlights: [
-      "AI-assisted startup–investor matching logic",
-      "Scalable Firecrawl scraping pipelines",
-      "Semantic data extraction via Gemini API",
-    ],
-    github: "https://github.com/suraj-shrivastav",
-    live: "https://pitch-dekh-frontend.vercel.app/",
-    images: ["/pitch/hero.png", "/pitch/marketResearch.png", "/pitch/matchVC.png", "/pitch/pitchDetailed.png", "/pitch/vcProfiles.png"],
-  },
-  {
     name: "Assets",
     tags: ["React", "Node.js", "Supabase", "Generative AI", "LLM"],
     category: "GenAI · Full Stack",
@@ -65,6 +51,20 @@ const PROJECTS = [
     github: "https://github.com/suraj-shrivastav/Assets",
     live: "https://assets-amber-nine.vercel.app/",
     images: ["/assets/hero.png", "/assets/image.png", "/assets/campaign.png", "/assets/audio.png", "/assets/audio2.png"],
+  },
+  {
+    name: "PitchDekh",
+    tags: ["React", "Express.js", "Gemini API", "Supabase", "Firecrawl"],
+    category: "GenAI · Full Stack",
+    desc: "AI-Powered Pitch Intelligence Platform for analyzing startup pitch decks and investor profiles. Built AI workflows extracting structured data via Gemini APIs and automated VC profile enrichment through scalable web-scraping pipelines.",
+    highlights: [
+      "AI-assisted startup–investor matching logic",
+      "Scalable Firecrawl scraping pipelines",
+      "Semantic data extraction via Gemini API",
+    ],
+    github: "https://github.com/suraj-shrivastav",
+    live: "https://pitch-dekh-frontend.vercel.app/",
+    images: ["/pitch/hero.png", "/pitch/marketResearch.png", "/pitch/matchVC.png", "/pitch/pitchDetailed.png", "/pitch/vcProfiles.png"],
   },
   {
     name: "Bot",
@@ -190,9 +190,9 @@ const EXPERIENCE = [
     period: "Oct 2025 – Jan 2026",
     location: "Remote, India",
     points: [
-      "Backend optimization via Firebase Cloud Functions & Firestore — reduced load times by ~15%",
+      "Backend optimization via Firebase Cloud Functions & Firestore - reduced load times by ~15%",
       "Optimized AI-driven query workflows, improving response efficiency by 5%",
-      "SEO strategies & performance optimizations — 10% increase in search impressions",
+      "SEO strategies & performance optimizations - 10% increase in search impressions",
     ],
   },
   {
@@ -858,9 +858,9 @@ export default function Portfolio() {
                 Pune (CGPA 9.30 / 10), passionate about crafting performant, well-architected web applications.
               </p>
               <p style={{ fontSize: 16, lineHeight: 1.85, color: "#4b5563", marginBottom: 20, fontWeight: 300 }}>
-                My core expertise lies in the <strong style={{ fontWeight: 600, color: "#111827" }}>MERN stack</strong> — building
+                My core expertise lies in the <strong style={{ fontWeight: 600, color: "#111827" }}>MERN stack</strong> - building
                 everything from real-time applications to complex full-stack products. Alongside traditional
-                web development, I'm deeply engaged with <strong style={{ fontWeight: 600, color: "#111827" }}>Generative AI</strong> —
+                web development, I'm deeply engaged with <strong style={{ fontWeight: 600, color: "#111827" }}>Generative AI</strong> -
                 integrating LLMs, building RAG pipelines, and crafting intelligent agents that solve real-world problems.
               </p>
               <p style={{ fontSize: 16, lineHeight: 1.85, color: "#4b5563", fontWeight: 300 }}>
@@ -1196,7 +1196,7 @@ export default function Portfolio() {
           <div className="divider" style={{ margin: "0 auto 32px" }} />
 
           <p style={{ fontSize: 16, lineHeight: 1.8, color: "#6b7280", marginBottom: 44, fontWeight: 300 }}>
-            Whether it's a new opportunity, a collaboration, or just a conversation — my inbox is open.
+            Whether it's a new opportunity, a collaboration, or just a conversation - my inbox is open.
             I'm currently seeking full-time and internship roles in full-stack and AI-integrated development.
           </p>
 
