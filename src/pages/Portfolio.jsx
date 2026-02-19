@@ -828,7 +828,7 @@ export default function Portfolio() {
             <a href="https://linkedin.com/in/suraj-shrivastav" target="_blank" rel="noreferrer" className="social-icon" title="LinkedIn">
               <Linkedin size={18} />
             </a>
-            <a href="https://leetcode.com" target="_blank" rel="noreferrer" className="social-icon" title="LeetCode">
+            <a href="https://leetcode.com/u/suraj-shrivastav/" target="_blank" rel="noreferrer" className="social-icon" title="LeetCode">
               <Code2 size={18} />
             </a>
             <a href="mailto:surajshrivastav07@gmail.com" className="social-icon" title="Email">
@@ -1228,7 +1228,7 @@ export default function Portfolio() {
             <a href="https://linkedin.com/in/suraj-shrivastav" target="_blank" rel="noreferrer" className="social-icon" title="LinkedIn">
               <Linkedin size={18} />
             </a>
-            <a href="https://leetcode.com" target="_blank" rel="noreferrer" className="social-icon" title="LeetCode">
+            <a href="https://leetcode.com/u/suraj-shrivastav/" target="_blank" rel="noreferrer" className="social-icon" title="LeetCode">
               <Code2 size={18} />
             </a>
           </div>
