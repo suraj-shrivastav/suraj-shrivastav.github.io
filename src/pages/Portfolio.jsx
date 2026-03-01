@@ -183,7 +183,18 @@ const PROJECTS = [
 
 const RESUME_PATH = "/Suraj_Shrivastav_Resume.pdf";
 
-const EXPERIENCE = [
+const EXPERIENCE = [  
+  {
+    company: "NeuralArc.ai",
+    role: "GenAI Developer Intern",
+    period: "Current",
+    location: "Pune, India",
+    points: [
+      "Developing AI-powered solutions using cutting-edge generative models and LLMs",
+      "Building scalable GenAI applications with prompt engineering and API integration",
+      "Contributing to innovative AI workflows and product development initiatives",
+    ],
+  },
   {
     company: "Zymo",
     role: "Full Stack Intern",
@@ -875,7 +886,7 @@ export default function Portfolio() {
                 {[
                   { num: "9.30", label: "CGPA" },
                   { num: "n", label: "Projects Built" },
-                  { num: "2", label: "Internships" },
+                  { num: "3", label: "Internships" },
                   { num: "2026", label: "Graduating" },
                 ].map(({ num, label }) => (
                   <div key={label} style={{ background: "#F7F5F0", border: "1px solid #e5e7eb", borderRadius: 12, padding: "18px 20px" }}>
@@ -1141,7 +1152,7 @@ export default function Portfolio() {
             {[
               ["Education", "B.E. Computer Engineering"],
               ["CGPA", "9.30 / 10"],
-              ["Experience", "2 Internships"],
+              ["Experience", "3 Internships"],
               ["Stack", "MERN + GenAI"],
             ].map(([label, value]) => (
               <div
